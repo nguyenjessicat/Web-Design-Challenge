@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cloudiness</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">  
+  <style>img {float: left;margin: 5px;} </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Home</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Plots
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="Temp.html">Max Temperature</a>
+              <a class="dropdown-item" href="Humidity.html">Humidity</a>
+              <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+              <a class="dropdown-item" href="Wind.html">Wind Speed</a>
+            </div>
+        </li>   
+                   
+        <li class="nav-item active">
+          <a class="nav-link" href="Comparison.html">Comparison <span class="sr-only">(current)</span></a>
+        </li>
+        
+        <li class="nav-item active">
+            <a class="nav-link" href="data.html">Data <span class="sr-only">(current)</span></a>
+        </li>
+       
+      </ul>
+    </div>
+  </nav>
+  
+
+  <div class="container p-3 my-3 bg-light">
+    
+    <div class="row">
+      <div class="col-sm-6">
+        <h2>Cloudiness</h2>
+        
+        <img src="assets\images\Fig3.png" alt="Cloudiness" class="img-thumbnail">
+        <p>Not much correlation between latitude and cloudiness.  Generally speaking, clouds seems to be everywhere.</p>
+    
+        
+      </div>
+      <div class="col-sm-6">
+        <div class="row">
+            <div class="col-12 col-lg-6">    
+                  <div class="card">                 
+                     <img class="card-img" src="assets\images\Fig1.png" alt="Temperature" style="width:100%">
+                    <a href="Temp.html" class="stretched-link"></a>                    
+                    </div>
+            </div>
+            <div class="col-12 col-lg-6">    
+                <div class="card">                 
+                   <img class="card-img" src="assets\images\Fig2.png" alt="Humidity" style="width:100%">
+                  <a href="Humidity.html" class="stretched-link"></a>                    
+                  </div>
+          </div>
+          <div class="col-12 col-lg-6">    
+            <div class="card">                 
+               <img class="card-img" src="assets\images\Fig3.png" alt="Cloudiness" style="width:100%">
+              <a href="Cloudiness.html" class="stretched-link"></a>                    
+            </div>
+            </div>
+            <div class="col-12 col-lg-6">    
+                <div class="card">                 
+                   <img class="card-img" src="assets\images\Fig4.png" alt="Wind Speed" style="width:100%">
+                  <a href="Wind.html" class="stretched-link"></a>                    
+                  </div>
+          </div>
+
+
+           
+      </div>
+    </div>
+  </div>
+
+  
+  
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
